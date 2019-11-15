@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 using namespace std;
@@ -52,18 +53,18 @@ double Empleado::sueldoAnual()
 
 double Empleado::descuento()
 {
-    int diezpc =0;
-    diezpc = salario *1.10;
-    diezpc = diezpc - salario;
-    return diezpc;
+        int diezpc =0;
+        diezpc = salario *1.10;
+        diezpc = diezpc - salario;
+        return diezpc;
 }
 
 double Empleado::descuentoAnual()
 {
-    double last;
-    int *ptr;
-    ptr = double Empleado.sueldoAnual();
-    last= ptr;
+    int diezpc2 =0;
+    diezpc2 = salario *1.10;
+    diezpc2 = diezpc2 - salario;
+    return (salario*12)-(diezpc2*12);
 }
 
 int main()
@@ -73,6 +74,6 @@ int main()
     cout<< p1.getnombre()<<endl;
     cout<<p1.getSalario()<<endl;
     cout << p1.sueldoAnual()<<endl;
-//    p1.descuento()<<endl;
+    cout<<p1.descuento()<<endl;
     cout<<p1.descuentoAnual();
 }
